@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DevTalles.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class DevtallesContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        public DevtallesContext(DbContextOptions<DevtallesContext> options) : base(options)
         {
         }
 

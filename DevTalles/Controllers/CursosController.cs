@@ -11,10 +11,10 @@ namespace DevTalles.Controllers
 {
     public class CursosController : Controller
     {
-        private readonly ApplicationDbContext db;
+        private readonly DevtallesContext db;
         private readonly IWebHostEnvironment hostEnvironment;
 
-        public CursosController(ApplicationDbContext context, IWebHostEnvironment hostEnvironment)
+        public CursosController(DevtallesContext context, IWebHostEnvironment hostEnvironment)
         {
             this.db = context;
             this.hostEnvironment = hostEnvironment;

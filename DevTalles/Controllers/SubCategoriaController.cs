@@ -9,9 +9,9 @@ namespace DevTalles.Controllers
 {
     public class SubCategoriaController : Controller
     {
-        private readonly ApplicationDbContext _db;
+        private readonly DevtallesContext _db;
 
-        public SubCategoriaController(ApplicationDbContext db)
+        public SubCategoriaController(DevtallesContext db)
         {
             _db = db;
         }
